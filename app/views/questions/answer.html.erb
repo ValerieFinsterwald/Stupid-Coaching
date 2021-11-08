@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card">
+    <p class="text"> <%= @question %> </p>
+    <p class="person"> <em>-You </em></p>
+  </div>
+  <div class="card">
+    <p class="text"> <%= @answer %> </p>
+    <p class="person"> <em>-Your Coach</em></p>
+  </div>
+  <div class="btn">
+    <%= link_to "Ask a new question", root_path %>
+  </div>
+</div>
